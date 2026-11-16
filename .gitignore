@@ -1,0 +1,17 @@
+# Build output (plugin, test screenshots)
+build/
+
+# Local test configuration (API key, test book paths) - never commit
+test_config.json
+
+# Saved live responses may contain personal file paths
+docs/samples/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
